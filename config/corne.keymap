@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 
 / {
     behaviors {
@@ -81,7 +80,7 @@
 
             bindings = <
 &none  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp N5                &kp NUMBER_6  &kp N7               &kp N8      &kp N9             &kp N0           &none
-&none  &kp TILDE     &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp PLUS       &kp PIPE              &kp K_PREV    &kp K_PLAY_PAUSE     &kp K_NEXT  &mkp LCLK          &mkp RCLK        &none
+&none  &kp TILDE     &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp PLUS       &kp PIPE              &kp LC(A)     &kp RIGHT_SHIFT      &kp K_PREV  &kp K_PP           &kp K_NEXT       &none
 &none  &kp GRAVE     &kp SQT            &kp MINUS         &kp EQUAL      &kp BACKSLASH         &kt CAPSLOCK  &sk RG(RIGHT_SHIFT)  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none
                                         &kp LEFT_CONTROL  &kp LEFT_META  &sk LG(LEFT_SHIFT)    &trans        &trans               &trans
             >;
