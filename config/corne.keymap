@@ -65,7 +65,7 @@
 
             bindings = <
 &none  &kp EXCLAMATION  &kp AT_SIGN   &kp POUND         &kp DOLLAR      &kp PERCENT      &kp LCTRL         &kp AMPERSAND      &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none  &kt LEFT_META    &kt LEFT_ALT  &kt LEFT_CONTROL  &kt LEFT_SHIFT  &kp PAGE_UP      &kp LEFT          &kp DOWN           &kp UP          &kp RIGHT             &kp PIPE               &none
+&none  &sk LEFT_META    &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &kp PAGE_UP      &kp LEFT          &kp DOWN           &kp UP          &kp RIGHT             &kp PIPE               &none
 &none  &kp F5           &kp F12       &kp LS(LC(C))     &kp LS(LC(V))   &kp PAGE_DOWN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH          &none
                                       &trans            &kp LS(RSHIFT)  &trans           &kp LG(TAB)       &kp HOME           &kp END
             >;
