@@ -18,7 +18,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <125>;
             flavor = "tap-preferred";
             quick-tap-ms = <0>;
             hold-trigger-key-positions = <18 19 20 21 22>;
@@ -30,7 +30,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <125>;
             flavor = "tap-preferred";
             quick-tap-ms = <0>;
             hold-trigger-key-positions = <13 14 15 16 17 13 14 15 16 17>;
@@ -78,9 +78,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp N5                &kp NUMBER_6         &kp N7           &kp N8      &kp N9             &kp N0           &none
-&none  &kp TILDE     &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp PLUS       &kp PIPE              &sk RG(RIGHT_SHIFT)  &kp RIGHT_SHIFT  &kp K_PREV  &kp K_PP           &kp K_NEXT       &none
-&none  &kp GRAVE     &kp SQT            &kp MINUS         &kp EQUAL      &kp BACKSLASH         &sk RC(A)            &kt CAPSLOCK     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none
+&none  &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3      &kp NUMBER_4   &kp N5                &kp NUMBER_6         &kp N7           &kp N8             &kp N9             &kp N0           &none
+&none  &kp TILDE     &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp PLUS       &kp PIPE              &sk RG(RIGHT_SHIFT)  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT      &kp RIGHT_META   &none
+&none  &kp GRAVE     &kp SQT            &kp MINUS         &kp EQUAL      &kp BACKSLASH         &sk RC(A)            &kt CAPSLOCK     &kp K_MUTE         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none
                                         &kp LEFT_CONTROL  &kp LEFT_META  &sk LG(LEFT_SHIFT)    &trans               &trans           &trans
             >;
         };
